@@ -66,11 +66,11 @@ Riscos/Desafios: [Riscos ou desafios identificados]
 - Implemente a solução completa seguindo a TechSpec e as convenções do projeto
 - Escreva os testes definidos na tarefa (unitário, integração e/ou E2E)
 
-### 6. Revisão (auto-review da tarefa)
+### 6. Revisão
 
-Faça um review rápido **desta tarefa** antes de fechá-la (escopo, padrões, testes da tarefa passando). Ajuste os problemas indicados e não finalize até resolver.
-
-> Isto é o auto-review por tarefa. O review consolidado da feature inteira (todo o diff antes do merge) é feito depois pela skill `execute-review`.
+1. Execute o agente de review @task-reviewer
+2. Ajuste os problemas indicados
+3. Não finalize a tarefa até resolver
 
 ### 7. Conclusão
 
@@ -86,3 +86,10 @@ Faça um review rápido **desta tarefa** antes de fechá-la (escopo, padrões, t
 <critical>**VOCÊ DEVE** iniciar a implementação logo após a análise</critical>
 <critical>Utilize o Context7 MCP para analisar a documentação envolvida</critical>
 <critical>Após completar a tarefa, marque-a como completa em `tasks.md`</critical>
+<critical>Após completar a tarefa, marque como completa em tasks.md</critical>
+<critical>Após completar a tarefa, marque como completa em tasks.md</critical>
+<critical>Após completar a tarefa, marque como completa em tasks.md</critical>
+<critical>Após completar a tarefa, marque como completa em tasks.md</critical>
+<critical>Após completar a tarefa, marque como completa em tasks.md</critical>
+<critical>Após completar a tarefa, marque como completa em tasks.md</critical>
+<critical>Após completar a tarefa, marque como completa em tasks.md</critical>
