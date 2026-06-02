@@ -36,7 +36,7 @@ Exemplo: a primeira feature vira `tasks/01-painel-clima/`; a próxima, `tasks/02
 
 ## Instalação
 
-Com o repositório publicado no GitHub, qualquer projeto instala com:
+Executar:
 
 ```bash
 # Menu interativo: escolha skills e harnesses
@@ -53,8 +53,6 @@ npx skills add https://github.com/renanloureiroo/sdd --skill execute-qa -a claud
 ```
 
 O `npx skills` espelha cada skill para o formato do harness escolhido (`.claude/skills/`, `.agents/skills/`, `.cursor/rules/`, etc.) — não é preciso manter cópias manuais. Use `--list` para ver as skills disponíveis e `-g` para instalar no diretório do usuário (global) em vez do projeto.
-
-> Sem publicar no GitHub também dá: aponte o `npx skills add` para o caminho local ou copie as pastas de `skills/` para o diretório de skills do seu harness.
 
 ## Como usar (fluxo manual)
 
