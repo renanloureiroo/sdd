@@ -1,0 +1,64 @@
+{
+  "location": {
+    "label": "São Paulo, São Paulo, Brasil",
+    "timezone": "America/Sao_Paulo"
+  },
+  "current": {
+    "temperature": 22,
+    "apparentTemperature": 21,
+    "humidity": 65,
+    "precipitation": 0,
+    "windSpeed": 12,
+    "weatherCode": 1,
+    "condition": "Principalmente limpo",
+    "icon": "sun",
+    "isDay": true
+  },
+  "hourly": [
+    {
+      "time": "2026-06-02T00:00",
+      "temperature": 18,
+      "weatherCode": 0,
+      "condition": "Céu limpo",
+      "icon": "sun",
+      "precipitationProbability": 0,
+      "isCurrent": false
+    },
+    {
+      "time": "2026-06-02T01:00",
+      "temperature": 17,
+      "weatherCode": 0,
+      "condition": "Céu limpo",
+      "icon": "sun",
+      "precipitationProbability": 0,
+      "isCurrent": false
+    },
+    {
+      "time": "2026-06-02T12:00",
+      "temperature": 22,
+      "weatherCode": 1,
+      "condition": "Principalmente limpo",
+      "icon": "sun",
+      "precipitationProbability": 10,
+      "isCurrent": true
+    },
+    {
+      "time": "2026-06-02T13:00",
+      "temperature": 24,
+      "weatherCode": 2,
+      "condition": "Parcialmente nublado",
+      "icon": "cloud-sun",
+      "precipitationProbability": 15,
+      "isCurrent": false
+    },
+    {
+      "time": "2026-06-02T14:00",
+      "temperature": 23,
+      "weatherCode": 3,
+      "condition": "Nublado",
+      "icon": "cloud",
+      "precipitationProbability": 20,
+      "isCurrent": false
+    }
+  ]
+}

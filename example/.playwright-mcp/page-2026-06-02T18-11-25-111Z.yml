@@ -1,0 +1,46 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Painel de Clima" [level=1] [ref=e6]
+      - paragraph [ref=e7]: Consulte o clima atual e a previsão para hoje
+    - generic [ref=e8]:
+      - search "Buscar cidade" [ref=e9]:
+        - generic [ref=e10]: cidade
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - img
+            - searchbox "cidade" [ref=e13]: São Paulo
+          - button "Buscar" [active] [ref=e14] [cursor=pointer]
+      - listbox "Selecione a cidade" [ref=e22]:
+        - option "São Paulo, São Paulo — Brasil" [ref=e23]:
+          - button "São Paulo, São Paulo — Brasil" [ref=e24] [cursor=pointer]:
+            - text: São Paulo
+            - generic [ref=e25]: ", São Paulo"
+            - generic [ref=e26]: — Brasil
+        - option "Frei Paulo, Sergipe — Brasil" [ref=e27]:
+          - button "Frei Paulo, Sergipe — Brasil" [ref=e28] [cursor=pointer]:
+            - text: Frei Paulo
+            - generic [ref=e29]: ", Sergipe"
+            - generic [ref=e30]: — Brasil
+        - option "Diamante, Paraíba — Brasil" [ref=e31]:
+          - button "Diamante, Paraíba — Brasil" [ref=e32] [cursor=pointer]:
+            - text: Diamante
+            - generic [ref=e33]: ", Paraíba"
+            - generic [ref=e34]: — Brasil
+        - option "Caatiba, Bahia — Brasil" [ref=e35]:
+          - button "Caatiba, Bahia — Brasil" [ref=e36] [cursor=pointer]:
+            - text: Caatiba
+            - generic [ref=e37]: ", Bahia"
+            - generic [ref=e38]: — Brasil
+        - option "São Paulo, Distrito de Coimbra — Portugal" [ref=e39]:
+          - button "São Paulo, Distrito de Coimbra — Portugal" [ref=e40] [cursor=pointer]:
+            - text: São Paulo
+            - generic [ref=e41]: ", Distrito de Coimbra"
+            - generic [ref=e42]: — Portugal
+    - status [ref=e19]: Localização não disponível. Digite o nome de uma cidade para buscar.
+    - paragraph [ref=e21]: Digite o nome de uma cidade para ver o clima
+  - paragraph [ref=e17]:
+    - text: "Dados meteorológicos:"
+    - link "Open-Meteo" [ref=e18] [cursor=pointer]:
+      - /url: https://open-meteo.com
+    - text: (CC BY 4.0)

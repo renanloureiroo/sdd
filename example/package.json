@@ -1,0 +1,15 @@
+{
+  "name": "examples-e2e",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Suíte E2E (Playwright Test) do projeto de exemplo — sobe backend + frontend via webServer.",
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^25.0.10"
+  }
+}

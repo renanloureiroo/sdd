@@ -1,0 +1,195 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Painel de Clima" [level=1] [ref=e6]
+      - paragraph [ref=e7]: Consulte o clima atual e a previsão para hoje
+    - generic [ref=e8]:
+      - search "Buscar cidade" [ref=e9]:
+        - generic [ref=e10]: cidade
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - img
+            - searchbox "cidade" [ref=e13]: Rio de Janeiro
+          - button "Buscar" [active] [ref=e14] [cursor=pointer]
+      - listbox "Selecione a cidade" [ref=e262]:
+        - option "Rio de Janeiro, Rio de Janeiro — Brasil" [ref=e263]:
+          - button "Rio de Janeiro, Rio de Janeiro — Brasil" [ref=e264] [cursor=pointer]:
+            - text: Rio de Janeiro
+            - generic [ref=e265]: ", Rio de Janeiro"
+            - generic [ref=e266]: — Brasil
+        - option "Río de Janeiro, Chiapas — México" [ref=e267]:
+          - button "Río de Janeiro, Chiapas — México" [ref=e268] [cursor=pointer]:
+            - text: Río de Janeiro
+            - generic [ref=e269]: ", Chiapas"
+            - generic [ref=e270]: — México
+        - option "Río de Janeiro, Chiapas — México" [ref=e271]:
+          - button "Río de Janeiro, Chiapas — México" [ref=e272] [cursor=pointer]:
+            - text: Río de Janeiro
+            - generic [ref=e273]: ", Chiapas"
+            - generic [ref=e274]: — México
+        - option "Río de Janeiro, Loreto — Peru" [ref=e275]:
+          - button "Río de Janeiro, Loreto — Peru" [ref=e276] [cursor=pointer]:
+            - text: Río de Janeiro
+            - generic [ref=e277]: ", Loreto"
+            - generic [ref=e278]: — Peru
+        - option "Río de Janeiro, Caldas — Colômbia" [ref=e279]:
+          - button "Río de Janeiro, Caldas — Colômbia" [ref=e280] [cursor=pointer]:
+            - text: Río de Janeiro
+            - generic [ref=e281]: ", Caldas"
+            - generic [ref=e282]: — Colômbia
+    - region "clima" [ref=e19]:
+      - heading "Sua localização" [level=2] [ref=e21]
+      - generic [ref=e22]:
+        - img "Garoa" [ref=e23]
+        - generic [ref=e25]:
+          - paragraph [ref=e26]: 23°C
+          - paragraph [ref=e27]: Garoa moderada
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - img [ref=e30]
+          - generic [ref=e32]:
+            - term [ref=e33]: Sensação térmica
+            - definition [ref=e34]: 25°C
+        - generic [ref=e35]:
+          - img [ref=e36]
+          - generic [ref=e40]:
+            - term [ref=e41]: Vento
+            - definition [ref=e42]: 15 km/h
+        - generic [ref=e43]:
+          - img [ref=e44]
+          - generic [ref=e47]:
+            - term [ref=e48]: Umidade
+            - definition [ref=e49]: 78%
+        - generic [ref=e50]:
+          - img [ref=e51]
+          - generic [ref=e53]:
+            - term [ref=e54]: Precipitação
+            - definition [ref=e55]: 0.2 mm
+    - region "Previsão horária" [ref=e56]:
+      - heading "PREVISÃO HORA A HORA" [level=3] [ref=e57]
+      - list "Previsão hora a hora" [ref=e58]:
+        - listitem [ref=e59]:
+          - generic [ref=e60]: 00:00
+          - img "Ensolarado" [ref=e61]
+          - generic [ref=e67]: 21°
+          - generic "18% de probabilidade de precipitação" [ref=e68]: 18%
+        - listitem [ref=e69]:
+          - generic [ref=e70]: 01:00
+          - img "Ensolarado" [ref=e71]
+          - generic [ref=e77]: 20°
+          - generic "14% de probabilidade de precipitação" [ref=e78]: 14%
+        - listitem [ref=e79]:
+          - generic [ref=e80]: 02:00
+          - img "Parcialmente nublado" [ref=e81]
+          - generic [ref=e86]: 20°
+          - generic "8% de probabilidade de precipitação" [ref=e87]: 8%
+        - listitem [ref=e88]:
+          - generic [ref=e89]: 03:00
+          - img "Nublado" [ref=e90]
+          - generic [ref=e92]: 20°
+          - generic "6% de probabilidade de precipitação" [ref=e93]: 6%
+        - listitem [ref=e94]:
+          - generic [ref=e95]: 04:00
+          - img "Garoa" [ref=e96]
+          - generic [ref=e98]: 20°
+          - generic "15% de probabilidade de precipitação" [ref=e99]: 15%
+        - listitem [ref=e100]:
+          - generic [ref=e101]: 05:00
+          - img "Ensolarado" [ref=e102]
+          - generic [ref=e108]: 20°
+          - generic "30% de probabilidade de precipitação" [ref=e109]: 30%
+        - listitem [ref=e110]:
+          - generic [ref=e111]: 06:00
+          - img "Ensolarado" [ref=e112]
+          - generic [ref=e118]: 20°
+          - generic "37% de probabilidade de precipitação" [ref=e119]: 37%
+        - listitem [ref=e120]:
+          - generic [ref=e121]: 07:00
+          - img "Ensolarado" [ref=e122]
+          - generic [ref=e128]: 21°
+          - generic "29% de probabilidade de precipitação" [ref=e129]: 29%
+        - listitem [ref=e130]:
+          - generic [ref=e131]: 08:00
+          - img "Ensolarado" [ref=e132]
+          - generic [ref=e138]: 22°
+          - generic "15% de probabilidade de precipitação" [ref=e139]: 15%
+        - listitem [ref=e140]:
+          - generic [ref=e141]: 09:00
+          - img "Ensolarado" [ref=e142]
+          - generic [ref=e148]: 24°
+          - generic "6% de probabilidade de precipitação" [ref=e149]: 6%
+        - listitem [ref=e150]:
+          - generic [ref=e151]: 10:00
+          - img "Ensolarado" [ref=e152]
+          - generic [ref=e158]: 25°
+          - generic "7% de probabilidade de precipitação" [ref=e159]: 7%
+        - listitem [ref=e160]:
+          - generic [ref=e161]: 11:00
+          - img "Ensolarado" [ref=e162]
+          - generic [ref=e168]: 25°
+          - generic "14% de probabilidade de precipitação" [ref=e169]: 14%
+        - listitem [ref=e170]:
+          - generic [ref=e171]: 12:00
+          - img "Garoa" [ref=e172]
+          - generic [ref=e174]: 26°
+          - generic "25% de probabilidade de precipitação" [ref=e175]: 25%
+        - listitem [ref=e176]:
+          - generic [ref=e177]: 13:00
+          - img "Chuva" [ref=e178]
+          - generic [ref=e180]: 23°
+          - generic "42% de probabilidade de precipitação" [ref=e181]: 42%
+        - listitem [ref=e182]:
+          - generic [ref=e183]: 14:00
+          - img "Chuva" [ref=e184]
+          - generic [ref=e186]: 24°
+          - generic "63% de probabilidade de precipitação" [ref=e187]: 63%
+        - listitem [ref=e188]:
+          - generic [ref=e189]: 15:00
+          - img "Garoa" [ref=e190]
+          - generic [ref=e192]: 23°
+          - generic "78% de probabilidade de precipitação" [ref=e193]: 78%
+        - listitem [ref=e194]:
+          - generic [ref=e195]: 16:00
+          - img "Garoa" [ref=e196]
+          - generic [ref=e198]: 22°
+          - generic "84% de probabilidade de precipitação" [ref=e199]: 84%
+        - listitem [ref=e200]:
+          - generic [ref=e201]: 17:00
+          - img "Garoa" [ref=e202]
+          - generic [ref=e204]: 22°
+          - generic "83% de probabilidade de precipitação" [ref=e205]: 83%
+        - listitem [ref=e206]:
+          - generic [ref=e207]: 18:00
+          - img "Garoa" [ref=e208]
+          - generic [ref=e210]: 21°
+          - generic "78% de probabilidade de precipitação" [ref=e211]: 78%
+        - listitem [ref=e212]:
+          - generic [ref=e213]: 19:00
+          - img "Ensolarado" [ref=e214]
+          - generic [ref=e220]: 21°
+          - generic "65% de probabilidade de precipitação" [ref=e221]: 65%
+        - listitem [ref=e222]:
+          - generic [ref=e223]: 20:00
+          - img "Ensolarado" [ref=e224]
+          - generic [ref=e230]: 21°
+          - generic "48% de probabilidade de precipitação" [ref=e231]: 48%
+        - listitem [ref=e232]:
+          - generic [ref=e233]: 21:00
+          - img "Ensolarado" [ref=e234]
+          - generic [ref=e240]: 21°
+          - generic "33% de probabilidade de precipitação" [ref=e241]: 33%
+        - listitem [ref=e242]:
+          - generic [ref=e243]: 22:00
+          - img "Ensolarado" [ref=e244]
+          - generic [ref=e250]: 20°
+          - generic "24% de probabilidade de precipitação" [ref=e251]: 24%
+        - listitem [ref=e252]:
+          - generic [ref=e253]: 23:00
+          - img "Ensolarado" [ref=e254]
+          - generic [ref=e260]: 20°
+          - generic "17% de probabilidade de precipitação" [ref=e261]: 17%
+  - paragraph [ref=e17]:
+    - text: "Dados meteorológicos:"
+    - link "Open-Meteo" [ref=e18] [cursor=pointer]:
+      - /url: https://open-meteo.com
+    - text: (CC BY 4.0)

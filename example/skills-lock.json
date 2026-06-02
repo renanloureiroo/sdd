@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "skills": {
+    "create-prd": {
+      "source": "renanloureiroo/sdd",
+      "sourceType": "github",
+      "skillPath": "skills/create-prd/SKILL.md",
+      "computedHash": "6eacffdc6f88f5d5cc423494b25125d7747c261a9a9cd9c7ffe6429fed32edb7"
+    },
+    "create-tasks": {
+      "source": "renanloureiroo/sdd",
+      "sourceType": "github",
+      "skillPath": "skills/create-tasks/SKILL.md",
+      "computedHash": "e486dd25948c2d90f9c7188c380e6dd3cdeaf3649cd9d581ff780fe6162a93b6"
+    },
+    "create-techspec": {
+      "source": "renanloureiroo/sdd",
+      "sourceType": "github",
+      "skillPath": "skills/create-techspec/SKILL.md",
+      "computedHash": "d433f7790fee0ec10c6246f5ed8ab7c1fa66b45b3267ec3fd160e67d0559038e"
+    },
+    "execute-bugfix": {
+      "source": "renanloureiroo/sdd",
+      "sourceType": "github",
+      "skillPath": "skills/execute-bugfix/SKILL.md",
+      "computedHash": "4adfd609e5b9a082fdcd5816ee0216ee83c4bbfef3c6e86a163a0ccbb31f34ff"
+    },
+    "execute-qa": {
+      "source": "renanloureiroo/sdd",
+      "sourceType": "github",
+      "skillPath": "skills/execute-qa/SKILL.md",
+      "computedHash": "087ed8c6c95320311b380ff476e01dda8176a5c8cc9cf5d31d4c2a6011677319"
+    },
+    "execute-review": {
+      "source": "renanloureiroo/sdd",
+      "sourceType": "github",
+      "skillPath": "skills/execute-review/SKILL.md",
+      "computedHash": "cfb07a8ee4027f1f89a11d352986b4a79d8b6f2daab9d7b937b481bd763a31db"
+    },
+    "execute-task": {
+      "source": "renanloureiroo/sdd",
+      "sourceType": "github",
+      "skillPath": "skills/execute-task/SKILL.md",
+      "computedHash": "342ab5f74d490791ca9d9ef3fae2288e137ff61a15c4515296f100a823f9d1c2"
+    },
+    "express-rest-api": {
+      "source": "pluginagentmarketplace/custom-plugin-nodejs",
+      "sourceType": "github",
+      "skillPath": "skills/express-rest-api/SKILL.md",
+      "computedHash": "3dbdcd641db7b87a2650016f872ac64643b80efab945af2f1ee151699965f84e"
+    },
+    "nodejs-backend-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/javascript-typescript/skills/nodejs-backend-patterns/SKILL.md",
+      "computedHash": "b63b54d09c77cec0e84cdd42424c12909785f14bdb286c835c45420b885ff1f3"
+    },
+    "react-frontend-expert": {
+      "source": "hieutrtr/ai1-skills",
+      "sourceType": "github",
+      "skillPath": "skills/react-frontend-expert/SKILL.md",
+      "computedHash": "7dc03c55136e42b84538af0df8c76f63baf626247a49a2461f8369b6c3932677"
+    }
+  }
+}

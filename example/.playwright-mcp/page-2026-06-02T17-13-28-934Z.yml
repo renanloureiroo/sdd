@@ -1,0 +1,18 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Painel de Clima" [level=1] [ref=e6]
+      - paragraph [ref=e7]: Consulte o clima atual e a previsão para hoje
+    - search "Buscar cidade" [ref=e9]:
+      - generic [ref=e10]: cidade
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - img
+          - searchbox "cidade" [ref=e13]
+        - button "Buscar" [ref=e14] [cursor=pointer]
+    - status [ref=e15]: Detectando sua localização...
+  - paragraph [ref=e17]:
+    - text: "Dados meteorológicos:"
+    - link "Open-Meteo" [ref=e18] [cursor=pointer]:
+      - /url: https://open-meteo.com
+    - text: (CC BY 4.0)

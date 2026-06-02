@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "id": 3448439,
+      "name": "São Paulo",
+      "latitude": -23.5475,
+      "longitude": -46.6361,
+      "country": "Brasil",
+      "countryCode": "BR",
+      "admin1": "São Paulo"
+    },
+    {
+      "id": 3448433,
+      "name": "São Paulo",
+      "latitude": -21.9951,
+      "longitude": -47.8925,
+      "country": "Brasil",
+      "countryCode": "BR",
+      "admin1": "São Paulo"
+    }
+  ]
+}
