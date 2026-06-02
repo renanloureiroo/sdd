@@ -70,7 +70,7 @@ Ordem típica para uma feature nova:
 
 Como acionar depende do harness — ex.: no Claude Code, peça _"use a skill `create-prd` para a feature X"_; em outros, invoque a skill equivalente. **Não pule etapas:** cada fase pressupõe os artefatos da anterior em `tasks/<NN>-<slug>/`.
 
-> 📖 **Passo a passo completo:** veja [`examples/walkthrough.md`](examples/walkthrough.md) — uma simulação ponta a ponta com o prompt de cada fase, a finalização de cada etapa e os **resets de contexto** entre elas.
+> 📖 **Passo a passo completo:** veja [`example/walkthrough.md`](example/walkthrough.md) — uma simulação ponta a ponta com o prompt de cada fase, a finalização de cada etapa e os **resets de contexto** entre elas.
 
 ## O que ajustar por projeto
 
@@ -105,7 +105,7 @@ Além das skills de processo, o seu projeto pode definir **subagents** para tare
 
 Subagents são um recurso **específico do Claude Code** (`.claude/agents/<nome>.md`, com frontmatter `name`/`description`/`model`) — outros harnesses podem não ter equivalente, e o `npx skills` **não** os instala. Por isso eles **não fazem parte do pipeline padrão**: cada projeto cria os que precisa, conforme a sua necessidade.
 
-> 📎 **Exemplo pronto para adaptar:** [`examples/agents/task-reviewer.md`](examples/agents/task-reviewer.md) — um `task-reviewer` que revisa um `[num]_task.md`, valida contra as convenções do projeto e a TechSpec, e grava `[num]_task_review.md` na pasta da feature. Copie para `.claude/agents/task-reviewer.md` e ajuste à sua stack/idioma/padrões.
+> 📎 **Exemplo pronto para adaptar:** [`example/agents/task-reviewer.md`](example/agents/task-reviewer.md) — um `task-reviewer` que revisa um `[num]_task.md`, valida contra as convenções do projeto e a TechSpec, e grava `[num]_task_review.md` na pasta da feature. Copie para `.claude/agents/task-reviewer.md` e ajuste à sua stack/idioma/padrões.
 
 Onde ele entra no fluxo (por **task**, entre implementação e review da feature):
 
@@ -150,7 +150,7 @@ sdd/
 ├── LICENSE
 ├── templates/
 │   └── AGENTS.md                 # template p/ copiar na raiz do seu projeto
-├── examples/
+├── example/
 │   ├── agents/task-reviewer.md   # exemplo de subagent (opcional, Claude Code)
 │   └── tasks/01-painel-clima/    # feature de exemplo (referência viva)
 └── skills/
