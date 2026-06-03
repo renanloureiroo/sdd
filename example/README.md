@@ -14,4 +14,4 @@ Mostra:
 
 ## Subagent de exemplo
 
-[`agents/task-reviewer.md`](agents/task-reviewer.md) é um **exemplo de subagent** do Claude Code (não faz parte do pipeline padrão): um revisor de task independente, que roda em contexto isolado e gera `[num]_task_review.md`. Copie-o para `.claude/agents/` no seu projeto e adapte às suas convenções — cada projeto cria os subagents que precisa. Veja a seção "Subagents complementares" no [README principal](../README.md).
+[`agents/task-reviewer.md`](.agents/task-reviewer.md) é um **exemplo de subagent**: um revisor de task independente, que roda em contexto isolado e gera `[num]_task_review.md`. Copie-o para `.claude/agents/` ou `.agents/agents/` no seu projeto e adapte às suas convenções — cada projeto cria os subagents que precisa. Veja a seção "Subagents complementares" no [README principal](../README.md).
